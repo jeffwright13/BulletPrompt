@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from setuptools import setup, find_packages
-VERSION = "2.2.0"  # PEP-440
+VERSION = "2.2.1"  # PEP-440
 
 NAME = "BulletPrompt"
 
