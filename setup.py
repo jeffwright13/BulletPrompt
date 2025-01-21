@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from setuptools import setup, find_packages
+
 VERSION = "2.2.1"  # PEP-440
 
 NAME = "BulletPrompt"
@@ -20,7 +21,7 @@ setup(
     },
     author="danner26",
     author_email="daniel.anner@danstechsupport.com",
-    keywords = "cli list prompt customize colors",
+    keywords="cli list prompt customize colors",
     license="MIT",
     python_requires=">=3.6",
     # Requirements
