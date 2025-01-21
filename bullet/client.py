@@ -496,7 +496,7 @@ class Input:
                 result = sess.input()
                 if self.valid(result):
                     break
-        return result.strip() if self.strip else result
+        return result.strip() if self.strip and result is not None else result
 
 
 class Password:
