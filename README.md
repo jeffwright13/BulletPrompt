@@ -1,4 +1,4 @@
-# `bullet` : Beautiful Python Prompts Made Simple
+# `BulletPrompt` : Beautiful Python Prompts Made Simple
 <p align=center>
 <br><br><br>
 <img src="./assets/icon.png" width="400">
@@ -9,6 +9,12 @@
 <a target="_blank" href="http://makeapullrequest.com" title="PRs Welcome"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
 </p>
 
+## Maintained Version of Bullet
+
+This project is a fork of the original `bullet` project. The original project is no longer maintained. This fork is maintained by the community and is actively developed. The original project can be found [here](https://github.com/bchao1/bullet).
+
+### This repo is actively migrating documentation and configuration. We will be updating this as time goes on.
+
 ***
 > 🎨 Customize prompts in your Python CLI tool. Extensive support for formatting, colors, background colors, styling, and etc. Also supports emojis!
 ***
@@ -18,10 +24,6 @@
 </p>
 
 > See the sample code for the above demo in `./examples/prompt.py`.
-
-## ✨News: `bullet==2.2.0` is up (Finally!)
-
-You can now download the newest version of bullet on PyPI!
 
 ## Bullet-lists and checkboxes
 > 🎨 Robust support for user-defined styles.
@@ -76,15 +78,16 @@ You can now download the newest version of bullet on PyPI!
 > 🔢 Numbers
 <img src="./assets/gifs/numbers.gif" width="600"/>
 
-## Setting up `bullet`
+## Setting up `BulletPrompt`
+>
 > From PyPI
 ```shell
-$ pip install bullet
+$ pip install BulletPrompt
 ```
 > Build from Source
 ```shell
-$ git clone https://github.com/bchao1/bullet.git
-$ cd bullet
+$ git clone https://github.com/danner26/BulletPrompt.git
+$ cd BulletPrompt
 $ pip install .
 ```
 ## Documentation
