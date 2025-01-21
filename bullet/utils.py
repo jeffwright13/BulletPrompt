@@ -9,6 +9,18 @@ from . import colors
 COLUMNS, _ = shutil.get_terminal_size()  ## Size of console
 
 
+def is_printable(s: str) -> bool:
+    """Determine if a string contains only printable characters.
+    Args:
+        s: The string to verify.
+    Returns:
+        bool: `True` if all characters in `s` are printable. `False` if any
+            characters in `s` can not be printed.
+    """
+    # Ref: https://stackoverflow.com/a/50731077
+    return not any(repr(ch).startswith(("'\\x", "'\\u")) for ch in s)
+
+
 def mygetc():
     """Get raw characters from input."""
     fd = sys.stdin.fileno()
@@ -59,7 +71,7 @@ def getchar():
             return getchar()
 
     else:
-        if c in string.printable:
+        if is_printable(c):
             return c
         else:
             return UNDEFINED_KEY
