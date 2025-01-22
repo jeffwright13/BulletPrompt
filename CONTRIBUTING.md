@@ -86,9 +86,9 @@ We are transitioning to using pyproject.toml as the single source of truth for p
 
 ## Submitting a Pull Request
 
-1. **Branch From `main`**:
+1. **Branch From `master`**:
     ```bash
-    git checkout main
+    git checkout master
     git pull
     git checkout -b my-branch
     ```
@@ -111,9 +111,9 @@ We are transitioning to using pyproject.toml as the single source of truth for p
     ```
     > **Note**: Use a descriptive commit message that explains the changes you made.
 
-5. **Rebase with `main`**:
+5. **Rebase with `master`**:
     ```bash
-    git pull --rebase origin main
+    git pull --rebase origin master
     ```
     Resolve any conflicts that arise, save, recommit, and then continue.
 
