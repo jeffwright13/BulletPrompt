@@ -71,9 +71,9 @@ pre-commit run --all-files
 
 The hooks will automatically check and fix issues related to:
 
-- Code formatting (black)
-- Import sorting (isort)
-- Linting (ruff)
+- Code formatting
+- Import sorting
+- Linting
 - Common errors (e.g., trailing whitespace, YAML validation)
 
 ---
