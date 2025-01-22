@@ -1,2 +1,19 @@
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"
+
 [tool.ruff]
 exclude = [".git", ".vscode", ".pytest_cache", ".mypy_cache", ".env"]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "isort",
+    "ruff",
+    "pytest",
+    "pre-commit",
+    "uv",
+]
